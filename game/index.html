@@ -1,8 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MicroLLM // IF-ENGINE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body data-genre="none" data-visual="boot">
+  <div class="crt">
+    <div class="scanlines" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
 
-<body>
-    <p>Hello</p>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">ADVENTURELLM v1.0</span>
+      </div>
+      <button type="button" id="new-game" class="ghost" hidden>NEW GAME</button>
+    </header>
+
+    <main>
+      <section id="picker" class="picker">
+        <p class="boot-line">Select a genre cassette. Structured turns. No live model on this channel.</p>
+        <div id="genre-grid" class="genre-grid"></div>
+        <p id="picker-error" class="error" hidden></p>
+      </section>
+
+      <section id="play" class="play" hidden>
+        <div class="layout">
+          <div id="log" class="log" role="log" aria-live="polite"></div>
+          <aside class="hud" aria-label="Game state">
+            <h2>STATUS</h2>
+            <div class="hud-row"><span>LOC</span><strong id="hud-loc">—</strong></div>
+            <div class="hud-row">
+              <span>HP</span>
+              <div class="bar"><i id="bar-hp"></i></div>
+              <em id="hud-hp">10</em>
+            </div>
+            <div class="hud-row">
+              <span>TENSION</span>
+              <div class="bar bar-tension"><i id="bar-tension"></i></div>
+              <em id="hud-tension">2</em>
+            </div>
+            <h2>INVENTORY</h2>
+            <ul id="hud-inv" class="inv"></ul>
+            <h2>FLAGS</h2>
+            <div id="hud-flags" class="flags"></div>
+          </aside>
+        </div>
+        <div id="ending-banner" class="ending-banner" hidden></div>
+        <div id="choices" class="choices"></div>
+        <form id="cmd" class="cmd" autocomplete="off">
+          <label for="cmd-input" class="prompt">&gt;</label>
+          <input id="cmd-input" type="text" maxlength="240" placeholder="type a choice or free text" spellcheck="false">
+          <button type="submit">SEND</button>
+        </form>
+      </section>
+    </main>
+  </div>
+  <script src="/app.js"></script>
 </body>
-
 </html>
