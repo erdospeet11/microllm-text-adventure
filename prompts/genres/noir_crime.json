@@ -1,33 +1,33 @@
 {
   "core_features": [
-    "Espionage during or closely inspired by the Cold War era",
-    "Ideological tension, paranoia, and divided loyalties",
-    "Use of tradecraft: dead drops, codes, surveillance, counterintelligence"
+    "Crime, moral ambiguity, and corruption at the center",
+    "Cynical or disillusioned tone",
+    "Protagonist entangled in a web of lies, power, and betrayal"
   ],
   "typical_settings": [
-    "Berlin, Moscow, Washington, London, or proxy states during the Cold War",
-    "Embassies, safe houses, border crossings, train stations",
-    "Grey bureaucratic offices and smoky bars"
+    "Gritty city streets, back alleys",
+    "Bars, diners, police stations, cheap offices",
+    "Luxury spaces that contrast with seedy underworld"
   ],
   "typical_conflicts": [
-    "Double agents and moles",
-    "Operations that risk triggering political crises",
-    "Agents forced to choose between cause, country, and personal ties"
+    "Investigating a crime that leads to deeper rot",
+    "Being hired into a job that goes wrong",
+    "Cover-ups involving powerful figures"
   ],
   "protagonist_archetypes": [
-    "Intelligence officer, field agent, analyst",
-    "Reluctant recruit or asset",
-    "Burnt-out veteran spy"
+    "Private detective, small-time crook, cop on the edge",
+    "Reluctant witness or fixer",
+    "Someone who can’t fully escape their own flaws"
   ],
-  "tone_guidelines": "Tense, paranoid, often understated; victories are ambiguous.",
+  "tone_guidelines": "Cynical, fatalistic, often with hard-boiled narration and sharp dialogue.",
   "must_include": {
     "required_elements": [
-      "At least one operation or mission involving classic espionage tradecraft",
-      "A meaningful ideological or political context (East vs West or similar)",
-      "Ambiguity about who can be trusted"
+      "At least one serious crime as a key driver of the plot",
+      "Systemic corruption or moral compromise beyond a single 'bad person'",
+      "Moments where the protagonist’s own morality is tested or compromised"
     ],
     "forbidden_elements": [
-      "Overt superhero-like action ignoring the grounded, realistic feel"
+      "Neat and purely idealistic resolution where the system is clean and everyone is happy"
     ]
   }
 }
